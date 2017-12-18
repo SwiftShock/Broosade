@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 27355f1c64dd4d1459ee4193d4566910
+timeCreated: 1512677268
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - yellowSlimeScript: {instanceID: 0}
+  - player: {fileID: 1417104957131440, guid: deaa529444655584bbb332b944360da7, type: 2}
+  - yellowSlime: {fileID: 1360018283878164, guid: de2575f85ca36e1479feea3c1bdb8fe5,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

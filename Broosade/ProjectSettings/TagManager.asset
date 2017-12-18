@@ -3,7 +3,26 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Checkpoint
+  - Bottom Boundary
+  - Enemy
+  - Boulder
+  - Dash Attack
+  - Melee Attack
+  - Aerial Attack
+  - Boulder-S
+  - Boulder-U
+  - Target
+  - Bullet
+  - Heart Container
+  - Enemy Space
+  - Wall
+  - Ground
+  - Danger Zone
+  - EBullet
+  - Slimed
+  - Enemy Bullet
   layers:
   - Default
   - TransparentFX
@@ -13,12 +32,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Wall
+  - Ceiling
+  - Door
+  - Projectiles
   - 
   - 
   - 

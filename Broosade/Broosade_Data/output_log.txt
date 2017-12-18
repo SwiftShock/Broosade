@@ -1,0 +1,119 @@
+Mono path[0] = 'C:/Users/stoth/Documents/GitHub/Broosade/Broosade/Broosade_Data/Managed'
+Mono path[1] = 'C:/Users/stoth/Documents/GitHub/Broosade/Broosade/Broosade_Data/Mono'
+Mono config path = 'C:/Users/stoth/Documents/GitHub/Broosade/Broosade/Broosade_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/stoth/Documents/GitHub/Broosade/Broosade/Broosade_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55082
+Multi-casting "[IP] 192.168.1.168 [Port] 55082 [Flags] 2 [Guid] 3255762936 [EditorId] 3666169296 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-N9D6VIB) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55082]
+PlayerConnection already initialized - listening to [0.0.0.0:55082]
+Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     1644 MB
+    Driver:   20.19.15.4549
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.046 seconds
+Platform assembly: C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\stoth\Documents\GitHub\Broosade\Broosade\Broosade_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 6.016390 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.358397 ms
+System memory in use before: 16.1 MB.
+System memory in use after: 16.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 281.
+Total: 0.399817 ms (FindLiveObjects: 0.029391 ms CreateObjectMapping: 0.019127 ms MarkObjects: 0.318174 ms  DeleteObjects: 0.031724 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.785639 ms
+System memory in use before: 23.0 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 14226.
+Total: 2.892028 ms (FindLiveObjects: 0.683935 ms CreateObjectMapping: 0.192210 ms MarkObjects: 1.986024 ms  DeleteObjects: 0.028924 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.949494 ms
+System memory in use before: 20.2 MB.
+System memory in use after: 20.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3397.
+Total: 1.454645 ms (FindLiveObjects: 0.261724 ms CreateObjectMapping: 0.094705 ms MarkObjects: 0.971318 ms  DeleteObjects: 0.125963 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.390994 ms
+System memory in use before: 18.5 MB.
+System memory in use after: 18.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3802.
+Total: 1.484503 ms (FindLiveObjects: 0.318641 ms CreateObjectMapping: 0.104503 ms MarkObjects: 1.040365 ms  DeleteObjects: 0.019594 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.168965 ms
+System memory in use before: 18.0 MB.
+System memory in use after: 18.1 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2546.
+Total: 2.147444 ms (FindLiveObjects: 0.326572 ms CreateObjectMapping: 0.147423 ms MarkObjects: 1.262434 ms  DeleteObjects: 0.408215 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.797079 ms
+System memory in use before: 30.6 MB.
+System memory in use after: 31.5 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 30675.
+Total: 8.760528 ms (FindLiveObjects: 1.776551 ms CreateObjectMapping: 0.614888 ms MarkObjects: 6.319635 ms  DeleteObjects: 0.048052 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 33.726959 ms
+System memory in use before: 25.9 MB.
+System memory in use after: 25.8 MB.
+
+Unloading 211 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 1.237241 ms (FindLiveObjects: 0.042454 ms CreateObjectMapping: 0.037322 ms MarkObjects: 0.298580 ms  DeleteObjects: 0.856551 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.940060 ms
+System memory in use before: 17.3 MB.
+System memory in use after: 17.3 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 302.
+Total: 0.234665 ms (FindLiveObjects: 0.024259 ms CreateObjectMapping: 0.019127 ms MarkObjects: 0.184746 ms  DeleteObjects: 0.005131 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.806166 ms
+System memory in use before: 17.3 MB.
+System memory in use after: 17.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 281.
+Total: 0.256125 ms (FindLiveObjects: 0.025192 ms CreateObjectMapping: 0.020060 ms MarkObjects: 0.197809 ms  DeleteObjects: 0.012129 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.943326 ms
+System memory in use before: 23.7 MB.
+System memory in use after: 24.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 14226.
+Total: 4.762820 ms (FindLiveObjects: 1.008174 ms CreateObjectMapping: 0.277586 ms MarkObjects: 3.412677 ms  DeleteObjects: 0.062515 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 32b8 -> priority: 1 

@@ -4,40 +4,57 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
 
-    public Transform player;
-    private Vector3 moveTemp;
-    public float speed = 3;
-    public float xDifference;
-    public float yDifference;
-    public float playerDistance = 3;
+    public GameObject player;
+    public float offset;
+    private Vector3 playerPosition;
+    public float offsetSmoothing;
+    private Vector3 prevCamPosition;
+    private Vector3 newCamPosition;
 
-	void Update () {
+    void Update () {
+        playerPosition = new Vector3(player.transform.position.x, player.transform.position.y + 2.0f, transform.position.z);
+        positionXUpdate();
+        transform.position = Vector3.Lerp(transform.position, playerPosition, offsetSmoothing * Time.deltaTime);
+        prevCamPosition = transform.position;
+        ShootCam();
+    }
 
-        if (player.transform.position.x > transform.position.x)
+    void positionXUpdate ()
+    {
+        if (player.transform.localScale.x > 0f)
         {
-            xDifference = player.transform.position.x - transform.position.x;
+            offset = 2.0f;
         }
         else
         {
-            xDifference = transform.position.x - player.transform.position.x;
+            offset = -2.0f;
         }
+        playerPosition = new Vector3(playerPosition.x + offset, playerPosition.y, playerPosition.z);
+    }
 
-        if (player.transform.position.y > transform.position.y)
+    void ShootCam()
+    {
+        if (Input.GetKey(KeyCode.H))
         {
-            yDifference = player.transform.position.y - transform.position.y;
+            if (Input.GetKey(KeyCode.U))
+            {
+                newCamPosition = new Vector3(transform.position.x + offset, transform.position.y + 1.0f, transform.position.z);
+                transform.position = Vector3.Lerp(transform.position, newCamPosition, offsetSmoothing * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.N))
+            {
+                newCamPosition = new Vector3(transform.position.x + offset, transform.position.y - 1.0f, transform.position.z);
+                transform.position = Vector3.Lerp(transform.position, newCamPosition, 3 * Time.deltaTime);
+            }
+            else
+            {
+                newCamPosition = new Vector3(transform.position.x + offset, transform.position.y, transform.position.z);
+                transform.position = Vector3.Lerp(transform.position, newCamPosition, offsetSmoothing * Time.deltaTime);
+            }
         }
-        else
+        else if (Input.GetKeyUp(KeyCode.H))
         {
-            yDifference = transform.position.y - player.transform.position.y;
+            transform.position = Vector3.Lerp(transform.position, prevCamPosition, offsetSmoothing * Time.deltaTime);
         }
-
-        if (xDifference >= playerDistance || yDifference >= playerDistance)
-        {
-            moveTemp = player.transform.position;
-            moveTemp.z = -10;
-
-            transform.position = Vector3.MoveTowards(transform.position, moveTemp, speed * Time.deltaTime);
-        }
-        
-	}
+    }
 }
